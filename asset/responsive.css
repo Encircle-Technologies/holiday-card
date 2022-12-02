@@ -1,0 +1,517 @@
+@media (max-width:1920px) {
+    .bg-tree {
+        max-width: calc(100% - 50%)
+    }
+}
+
+@media (max-width:1750px) {
+    .bg-tree {
+        max-width: calc(100% - 42%)
+    }
+}
+
+@media (max-width:1550px) {
+    .bg-tree {
+        max-width: calc(100% - 42%)
+    }
+}
+
+/* @media (max-width:1599px) {
+    .holidays_fourth img {
+        max-width: 100px;
+        width: 100px
+    }
+
+    .holidays .holidays_fourth {
+        margin-top: -70px
+    }
+
+    .holidays .holidays_third {
+        margin-top: -72px
+    }
+
+    .holidays .holidays_second {
+        margin-top: -75px
+    }
+
+    .text-sec {
+        margin-top: -60px
+    }
+} */
+
+@media (max-width:1440px) {
+    .bg-tree {
+        max-width: calc(100% - 32%)
+    }
+
+    .text-sec .gingerbread_text::after {
+        top: 45px;
+        width: 100px
+    }
+    .svg-anime {
+        position: absolute;
+        margin-left: -112px;
+        margin-top: 60px;
+        width: 150px;
+    }
+}
+
+@media (max-width:1399px) {
+    .text-sec .gingerbread_text::after {
+        height: 110px;
+        top: 20px
+    }
+
+    .gingerbread_house-img {
+        width: 450px
+    }
+}
+
+@media (max-width:1299px) {
+
+    .text-sec .gingerbread_text p,
+    .text-sec .members_text p {
+        max-width: 286px
+    }
+
+    .text-sec .gingerbread_text p {
+        margin-left: 0
+    }
+
+    .svg-anime {
+        margin-left: -110px;
+        margin-top: 61px;
+        width: 120px;
+    }
+    }
+
+@media (max-width:1199px) {
+    .holidays .holidays_one .holidays_one-img img {
+        max-width: 190px;
+    }
+
+    .holidays .holidays_one .holidays_second-img img {
+        max-width: 275px;
+    }
+
+    .holidays .holidays_second img,
+    .holidays .holidays_third img {
+        max-width: 500px;
+        width: 500px
+    }
+
+    .holidays .holidays_main {
+        max-width: 500px
+    }
+
+    .text-sec {
+        margin-top: -55px;
+    }
+
+    .social-icons {
+        transform: none
+    }
+
+    .bg-tree {
+        max-width: calc(100% - 16%)
+    }
+    .holidays .holidays_second {
+        margin-top: -70px;
+    }
+    .holidays .holidays_third {
+        margin-top: -70px;
+    }
+    .holidays .holidays_fourth {
+        margin-top: -70px;
+    }
+}
+
+@media (max-width:1024px) {
+    .social-icons {
+        transform: none
+    }
+
+    .text-sec {
+        margin-top: -50px
+    }
+
+    .gingerbread_house-img {
+        max-width: 400px
+    }
+
+    .text-sec .gingerbread_house,
+    .text-sec .gingerbread_text,
+    .text-sec .members_text {
+        padding: 0 10px
+    }
+
+    .svg-anime {
+        margin-left: -115px;
+        margin-top: 25px;
+        width: 110px
+    }
+
+    .gingerbread_text.fade-in.eight {
+        animation-delay: 1s
+    }
+
+    .anime,
+    .anime-1 {
+        animation-delay: 2s
+    }
+}
+
+@media (max-width:991px) {
+    .bg-tree {
+        max-width: calc(100% - 5%)
+    }
+
+    .text-sec .members_text p {
+        margin-right: auto
+    }
+}
+
+@media (max-width:920px) {
+    .svg-anime {
+        margin-top: 45px
+    }
+}
+
+@media (max-width:768px) {
+
+    .main-wrapper,
+    body,
+    html {
+        height: 100%
+    }
+
+    .watch-btn {
+        display: inline-block
+    }
+
+    .container {
+        flex-direction: column-reverse
+    }
+
+    .snow-hide,
+    .social-icons,
+    .text-sec .gingerbread_text {
+        display: none
+    }
+
+    .holidays .holidays_second
+ {
+        margin-top: -38px;
+    }
+    .text-sec{
+        margin-top: -30px;
+    }
+    .text-sec .members_text {
+        background: #fff;
+        z-index: 9;
+        text-align: center;
+        padding: 0 0 38px
+    }
+
+    .holidays .holidays_fourth {
+        margin-top: -41px
+    }
+
+    .holidays .holidays_one .holidays_one-img img {
+        max-width: 100px
+    }
+
+    .holidays .holidays_one .holidays_second-img img {
+        max-width: 155px
+    }
+
+    .social-icons {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background-color: #67a7bb;
+        padding: 10px;
+        width: 100%
+    }
+
+    .social-icon_img {
+        display: flex;
+        justify-content: space-evenly
+    }
+
+    .social-responsive,
+    p.hide {
+        display: block !important
+    }
+
+    .social-icons .instagram, .social-icons .facebook, .social-icons .linkedin, .social-icons .mail, .social-icons .twitter {
+        margin-bottom: 0
+    }
+
+    .holidays .holidays_second img,
+    .holidays .holidays_third img {
+        max-width: 280px;
+        width: 280px
+    }
+
+    .holidays_fourth img {
+        max-width: 55px;
+        width: 55px
+    }
+
+    .holidays .holidays_third {
+        margin-top: -42px
+    }
+
+    .gingerbread_house-img {
+        max-width: 225px
+    }
+
+    .holidays .holidays_main {
+        max-width: 280px
+    }
+
+    .main-wrapper .snow-bg {
+        position: absolute;
+        /* bottom: 380px; */
+        bottom: -12px;
+        width: 100%;
+        z-index: 1
+    }
+
+    .main_content {
+        justify-content: end;
+        position: relative
+    }
+
+    .bg-tree-responsive {
+        bottom: 48%;
+        bottom: 385px;
+        left: 50%
+    }
+
+    .social-responsive {
+        position: relative !important;
+        z-index: 9
+    }
+
+    body,
+    html {
+        overflow-y: hidden
+    }
+
+    .main-wrapper .bg-tree .left-tree-illustration img,
+    .main-wrapper .bg-tree .right-tree-illustration img {
+        max-width: 200px
+    }
+
+    .text-sec .gingerbread_text p,
+    .text-sec .members_text p {
+        margin-top: 0
+    }
+
+    .box {
+        padding: 0
+    }
+
+    .fade-in.three {
+        animation-delay: 8s
+    }
+
+    .snowflake.animate-snowfast_first {
+        animation-duration: 20s !important
+    }
+
+    .snowflake.animate-snowfast_second {
+        animation-duration: 25s !important
+    }
+
+    .snowflake.animate-snowfast_third {
+        animation-duration: 30s !important
+    }
+
+    .snowflake.animate-snowfast_fourth {
+        animation-duration: 35s !important
+    }
+    .gingerbread_house{
+        position: relative;
+    }
+    .snow-bg.snow-responsive{
+        display: block;
+        animation-delay: 4s !important;
+    }
+    .bg-tree {
+        max-width: calc(100% - 26%);
+    }
+}
+
+@media (max-width:525px) {
+
+    .mobile-snow {
+        display: block;
+    }
+
+    .destop-snow {
+      display: none;
+    }
+
+    /* .holidays .holidays_main,
+    .holidays .holidays_second img,
+    .holidays .holidays_third img {
+        max-width: 230px
+    } */
+
+    .main-wrapper .snow-bg {
+        /* bottom: 260px */
+    }
+
+    .main-wrapper .bg-tree .left-tree-illustration img,
+    .main-wrapper .bg-tree .right-tree-illustration img {
+        max-width: 150px;
+    }
+
+    .bg-tree {
+        max-width: calc(100% - 10%)
+    }
+
+    /* .holidays .holidays_one .holidays_one-img img {
+        max-width: 90px;
+    }
+
+    .holidays .holidays_one .holidays_second-img img {
+        max-width: 130px;
+    } */
+
+    .holidays_fourth img {
+        max-width: 40px;
+        width: 40px
+    }
+
+    .holidays .holidays_fourth {
+        margin-top: -40px;
+    }
+
+    .holidays .holidays_third {
+        margin-top: -40px;
+    }
+
+    .holidays .holidays_second {
+        margin-top: -33px;
+    }
+
+    /* .gingerbread_house-img {
+        max-width: 300px;
+    } */
+
+    .main_content {
+        height: 100%;
+    }
+
+    .holidays_main {
+        max-width: 170px
+    }
+
+    .text-sec .members_text {
+        padding: 0 0 20px
+    }
+
+    .bg-tree-responsive {
+        /* bottom: 37% */
+        bottom: 275px;
+    }
+
+    .text-sec {
+        margin-top: -24px;
+    }
+
+    .text-sec .gingerbread_text p,
+    .text-sec .members_text p {
+        margin-bottom: 10px;
+        font-size: 20px;
+        line-height: 26px
+    }
+    .snowflake.animate-snowfast_first{
+        height: 10px;
+        width: 10px;
+    }
+    
+}
+
+@media (max-width:425px) {
+    .main-wrapper .bg-tree .right-tree-illustration img {
+        max-width: 140px
+    }
+
+    .gingerbread_house-img {
+        max-width: 200px
+    }
+
+    .bg-tree-responsive {
+        bottom: 280px;
+    }
+    .snowflake.animate-snowfast_first{
+        height: 8px;
+        width:8px;
+    }
+    .snowflake.animate-snowfast_second{
+        height: 6px;
+        width: 6px;
+    }
+    .snowflake.animate-snowfast_third{
+        height: 4px;
+        width: 4px;
+    }
+    .snowflake.animate-snowfast_fourth{
+        height: 2px;
+        width: 2px;
+    }
+}
+
+@media (max-width:380px) {
+    .bg-tree-responsive {
+        /* bottom: 285px; */
+    }
+
+    .holidays .holidays_one .holidays_second-img img,
+    .main-wrapper .bg-tree .left-tree-illustration img,
+    .main-wrapper .bg-tree .right-tree-illustration img {
+        max-width: 110px
+    }
+
+    .gingerbread_house-img {
+        max-width: 150px
+    }
+
+    .text-sec {
+        margin-top: -30px
+    }
+
+    .holidays .holidays_third {
+        margin-top: -32px
+    }
+
+    .holidays .holidays_main,
+    .holidays .holidays_second img,
+    .holidays .holidays_third img {
+        max-width: 200px;
+    }
+
+    .holidays .holidays_second {
+        margin-top: -28px
+    }
+
+    .holidays .holidays_one .holidays_one-img img {
+        max-width: 70px;
+    }
+
+    .main-wrapper .snow-bg {
+        /* bottom: 253px; */
+        bottom: -15px;
+    }
+    .text-sec {
+        margin-top: -25px;
+    }
+    .holidays .holidays_fourth {
+        margin-top: -30px;
+    }
+}

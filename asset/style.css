@@ -1,0 +1,3415 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.cdnfonts.com/css/din-2');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.main-wrapper {
+  width: 100%;
+  height: 100vh;
+}
+
+.main-wrapper .bg-blue {
+  background-color: #75B6C5;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+
+.main-wrapper .bg-tree .left-tree-illustration img {
+  max-width: 280px;
+}
+
+.main-wrapper .bg-tree .right-tree-illustration img {
+  max-width: 280px;
+}
+
+.main-wrapper .snow-bg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.main-wrapper .snow-bg img {
+  width: 100%;
+  display: block;
+  height: 45px;
+}
+
+.bg-tree {
+  position: absolute;
+  bottom: 0;
+  transform: translateX(-50%);
+  left: 50%;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: calc(100% - 25%);
+  margin: 0 auto;
+  align-items: flex-end;
+}
+
+.main_content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+.main-wrapper .holidays .holidays_one {
+  display: flex;
+  z-index: 1;
+  position: relative;
+  gap: 10px;
+}
+
+.relative {
+  position: relative;
+}
+
+.holidays {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.holidays .holidays_one .holidays_one-img img {
+  max-width: 225px;
+  width: 225px;
+}
+
+.holidays .holidays_one .holidays_second-img img {
+  max-width: 350px;
+  width: 350px;
+}
+
+.holidays .holidays_second img,
+.holidays_third img {
+  max-width: 620px;
+  width: 620px;
+}
+
+.holidays_fourth img {
+  max-width: 96px;
+  width: 96px;
+}
+
+.holidays .holidays_second {
+  margin-top: -85px;
+}
+
+.holidays .holidays_third {
+  margin-top: -90px;
+}
+
+.holidays .holidays_fourth {
+  margin-top: -90px;
+}
+
+.holidays .holidays_fourth {
+  margin-left: auto;
+}
+.snow-bg.snow-responsive{
+  display: none;
+}
+.holidays .holidays_main {
+  width: 100%;
+  max-width: 620px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*snow-flake*/
+
+
+.snowflake {
+  --size: 12px;
+  width: var(--size);
+  height: var(--size);
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: -5vh;
+  background-color: #F9E6CB;
+}
+
+.gingerbread_house-img {
+  max-width: 500px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.gingerbread_house-img img {
+  width: 100%;
+}
+
+.social-icons {
+  position: absolute;
+  bottom: 50%;
+  right: 0;
+  background-color: #67A7BB;
+  padding: 20px 10px;
+  transform: translateY(50%);
+}
+.social-icons .instagram,
+.social-icons .facebook,
+.social-icons .linkedin,
+.social-icons .mail,
+.social-icons .twitter {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #F9E6CB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 5px 4px;
+}
+.social-icons .instagram a,
+.social-icons .facebook a,
+.social-icons .linkedin a,
+.social-icons .mail a,
+.social-icons .twitter a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.social-icons .instagram i,
+.social-icons .facebook i,
+.social-icons .linkedin i,
+.social-icons .mail i,
+.social-icons .twitter i {
+  color: #67A7BB;
+}
+.social-icons .instagram:hover,
+.social-icons .facebook:hover,
+.social-icons .linkedin:hover,
+.social-icons .mail:hover,
+.social-icons .twitter:hover {
+  background: #40879D;
+  transition: all 500ms;
+}
+.social-icons .instagram:hover i,
+.social-icons .facebook:hover i,
+.social-icons .linkedin:hover i,
+.social-icons .mail:hover i,
+.social-icons .twitter:hover i {
+  color: #F9E6CB;
+  transition: all 500ms;
+}
+
+.social-icons .mail {
+  margin: 0;
+}
+
+.text-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  width: 100%;
+  margin-top: -45px;
+  z-index: 1;
+}
+
+.text-sec .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.text-sec .members_text p,
+.text-sec .gingerbread_text p {
+  font-family: Satisfy;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  color: #3B2314;
+
+}
+.text-sec .members_text p{
+  max-width: 250px;
+  margin-right:30px;
+}
+.text-sec .gingerbread_text p {
+  max-width: 260px;
+}
+
+.text-sec .members_text,
+.text-sec .gingerbread_house,
+.text-sec .gingerbread_text {
+  width: 100%;
+}
+
+.text-sec .members_text,
+.text-sec .gingerbread_text {
+  padding-bottom: 70px;
+}
+
+.text-sec .gingerbread_text {
+  position: relative;
+  display: block;
+}
+
+.text-sec .gingerbread_text p {
+  margin-left: 60px
+}
+
+.gingerbread_house-img:hover .home,
+.gingerbread_house-img .home-open {
+    transition: ease-in-out 500ms;
+
+}
+.gingerbread_house-img .home-open{
+  visibility: hidden;
+  opacity: 0;
+}
+.gingerbread_house-img:hover .home-open {
+  visibility: visible;
+  opacity: 1;
+  transition:all ease 1s;
+}
+.gingerbread_house img.home-open{
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+/* .gingerbread_house-img .home{
+  display: block;
+}
+.gingerbread_house-img:hover .home{
+  display: none;
+}
+.gingerbread_house-img .home-open{
+
+  display: none;
+
+}
+.gingerbread_house-img:hover .home-open {
+display: block;
+} */
+.watch-btn {
+  background: #40879D;
+  color: #F9E6CB;
+  font-family: 'DIN';
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 1.6px;
+  padding: 10px 28px;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: none;
+}
+
+.watch-btn:hover {
+  background: #F9E6CB;
+  color: #40879D;
+  transition: all 300ms;
+}
+
+.social-responsive {
+  display: none;
+}
+
+p.hide {
+  display: none !important;
+}
+
+
+
+
+/*snow-flake*/
+
+.snowflake.animate-snowfast_first {
+  animation-duration: 15s !important;
+  width: 12px;
+  height: 12px;
+}
+
+.snowflake.animate-snowfast_second {
+  animation-duration: 25s !important;
+  width: 8px;
+  height: 8px;
+}
+
+.snowflake.animate-snowfast_third {
+  animation-duration: 30s !important;
+  width: 6px;
+  height: 6px;
+}
+
+.snowflake.animate-snowfast_fourth {
+  animation-duration: 35s !important;
+  width: 4px;
+  height: 4px;
+}
+
+/*fade-in animation for page-load*/
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  -webkit-animation: fadeIn ease-in;
+  -moz-animation: fadeIn ease-in;
+  animation: fadeIn ease-in;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  animation-duration: 3s;
+}
+
+.fade-in.one {
+  -webkit-animation-delay: 0.1s;
+  -moz-animation-delay: 0.1s;
+  animation-delay: 0.50s;
+  animation-duration: 0.50s;
+}
+
+.fade-in.two {
+  -webkit-animation-delay: 0.4s;
+  -moz-animation-delay: 0.4s;
+  animation-delay: 1s;
+  animation-duration: 1s;
+}
+
+.fade-in.three {
+  -webkit-animation-delay: 0.8s;
+  -moz-animation-delay: 0.8s;
+  animation-delay: 1.50s;
+  animation-duration: 1.5s;
+}
+
+.fade-in.four {
+  -webkit-animation-delay: 0.12s;
+  -moz-animation-delay: 0.12s;
+  animation-delay: 0.16s;
+  animation-duration: 4s;
+}
+
+.fade-in.sixth {
+  animation-duration: 2s;
+  animation-delay: 5s;
+}
+
+.fade-in.seventh {
+  animation-duration: 3s;
+  animation-delay: 4s;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+
+/*animation*/
+
+/*animation for snowfall right-left*/
+
+@-moz-keyframes fall {
+  0% {
+    top: -5%;
+    transform: translateX(0px);
+    transition: all 500ms;
+  }
+
+  10% {
+    transform: translateX(20px);
+    transition: all 500ms;
+  }
+
+  20% {
+    transform: translateX(0px);
+    transition: all 500ms;
+  }
+
+  30% {
+    transform: translateX(20px);
+    transition: all 500ms;
+  }
+
+  40% {
+    transform: translateX(0px);
+    transition: all 500ms;
+  }
+
+  50% {
+    top: 105%;
+    transform: translateX(20px);
+    transition: all 500ms;
+  }
+
+  60% {
+    transform: translateX(0px);
+    transition: all 500ms;
+  }
+
+  70% {
+    transform: translateX(20px);
+    transition: all 500ms;
+  }
+
+  80% {
+    transform: translateX(0px);
+    transition: all 500ms;
+  }
+
+  90% {
+    transform: translateX(20px);
+    transition: all 500ms;
+  }
+
+  100% {
+    top: 105%;
+    transform: translateX(0px);
+    transition: all 500ms;
+  }
+}
+
+@-webkit-keyframes fall {
+  0% {
+    top: -5%;
+    transform: translateX(0px);
+    transition: all 500ms;
+  }
+
+  10% {
+    transform: translateX(20px);
+    transition: all 500ms;
+  }
+
+  20% {
+    transform: translateX(0px);
+    transition: all 500ms;
+  }
+
+  30% {
+    transform: translateX(20px);
+    transition: all 500ms;
+  }
+
+  40% {
+    transform: translateX(0px);
+    transition: all 500ms;
+  }
+
+  50% {
+    top: 105%;
+    transform: translateX(20px);
+    transition: all 500ms;
+  }
+
+  60% {
+    transform: translateX(0px);
+    transition: all 500ms;
+  }
+
+  70% {
+    transform: translateX(20px);
+    transition: all 500ms;
+  }
+
+  80% {
+    transform: translateX(0px);
+    transition: all 500ms;
+  }
+
+  90% {
+    transform: translateX(20px);
+    transition: all 500ms;
+  }
+
+  100% {
+    top: 105%;
+    transform: translateX(0px);
+    transition: all 500ms;
+  }
+}
+
+@keyframes fall {
+  0% {
+    top: -5%;
+    transform: translateX(0px);
+    transition: all 500ms;
+  }
+
+  10% {
+    transform: translateX(20px);
+    transition: all 500ms;
+  }
+
+  20% {
+    transform: translateX(0px);
+    transition: all 500ms;
+  }
+
+  30% {
+    transform: translateX(20px);
+    transition: all 500ms;
+  }
+
+  40% {
+    transform: translateX(0px);
+    transition: all 500ms;
+  }
+
+  50% {
+    top: 105%;
+    transform: translateX(20px);
+    transition: all 500ms;
+  }
+
+  60% {
+    transform: translateX(0px);
+    transition: all 500ms;
+  }
+
+  70% {
+    transform: translateX(20px);
+    transition: all 500ms;
+  }
+
+  80% {
+    transform: translateX(0px);
+    transition: all 500ms;
+  }
+
+  90% {
+    transform: translateX(20px);
+    transition: all 500ms;
+  }
+
+  100% {
+    top: 105%;
+    transform: translateX(0px);
+    transition: all 500ms;
+  }
+}
+
+
+/* holiday section animation */
+@keyframes fadeInUps {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+/*animation slide right-left*/
+/***** Slide Right *****/
+.slide-right {
+  animation: 14s slide-right;
+}
+
+@keyframes slide-right {
+  from {
+    right: -100%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}
+
+/***** Slide Left *****/
+.slide-left {
+  animation: 14s slide-left;
+}
+
+@keyframes slide-left {
+  from {
+    left: -100%;
+  }
+
+  to {
+    left: 0%;
+  }
+}
+
+/*animation for arrow*/
+.svg-anime {
+  position: absolute;
+  margin-left: -120px;
+  margin-top: 55px;
+  width: 170px;
+}
+
+.anime,
+.anime-1 {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: draw 5s 6s linear forwards;
+}
+
+.anime-1 {
+  animation-delay: 6.50s;
+}
+@keyframes draw {
+  from {
+    opacity: 0;
+    stroke-dashoffset: 1000;
+  }
+
+  50% {
+    opacity: 1;
+    stroke-dashoffset: 500;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+
+.holiday {
+  opacity: 0;
+  animation: fadeInUps 1s ease-in-out 0s forwards;
+}
+
+.first {
+  animation-delay: 2s;
+}
+
+.second {
+  animation-delay: 2.50s;
+}
+
+.third {
+  animation-delay: 3s;
+}
+
+.fourth {
+  animation-delay: 3.50s;
+}
+
+.fifth {
+  animation-delay: 4s;
+}
+
+.sixth {
+  animation-delay: 8s;
+}
+
+.seventh {
+
+  animation-delay: 4s;
+}
+
+.eight {
+  animation-delay: 5.50s;
+}
+
+.nine {
+  animation-delay: 3s;
+}
+
+
+.eleven {
+  animation-delay: 11s;
+}
+
+/*snow css*/
+.snowflake {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #F9E6CB;
+  width: 10px;
+  height: 10px;
+  top: -5%;
+  z-index: 99;
+  transition: all;
+}
+
+/* .snow-small .animate-snowfast_first,
+.snow-small .animate-snowfast_second,
+.snow-big .animate-snowfast_third,
+.snow-big .animate-snowfast_fourth {
+  display: none;
+} */
+
+.mobile-snow {
+  display: none;
+}
+
+.destop-snow {
+  display: block;
+}
+
+.snowflake-1 {
+  left: 100%;
+  animation: fall 18s linear 0.8s infinite forwards;
+}
+
+.snowflake-2 {
+  left: 95%;
+  animation: fall 23s linear 0.1s infinite forwards;
+}
+
+.snowflake-3 {
+  left: 94%;
+  animation: fall 24s linear 0.9s infinite forwards;
+}
+
+.snowflake-4 {
+  left: 93%;
+  animation: fall 22s linear 0.7s infinite forwards;
+}
+
+.snowflake-5 {
+  left: 100%;
+  animation: fall 25s linear 0.4s infinite forwards;
+}
+
+.snowflake-6 {
+  left: 95%;
+  animation: fall 25s linear 0.5s infinite forwards;
+}
+
+.snowflake-7 {
+  left: 98%;
+  animation: fall 19s linear 0.9s infinite forwards;
+}
+
+.snowflake-8 {
+  left: 97%;
+  animation: fall 19s linear 1s infinite forwards;
+}
+
+.snowflake-9 {
+  left: 99%;
+  animation: fall 23s linear 0.5s infinite forwards;
+}
+
+.snowflake-10 {
+  left: 91%;
+  animation: fall 24s linear 0.8s infinite forwards;
+}
+
+.snowflake-11 {
+  left: 100%;
+  animation: fall 16s linear 0.5s infinite forwards;
+}
+
+.snowflake-12 {
+  left: 100%;
+  animation: fall 23s linear 0.9s infinite forwards;
+}
+
+.snowflake-13 {
+  left: 100%;
+  animation: fall 19s linear 0.7s infinite forwards;
+}
+
+.snowflake-14 {
+  left: 99%;
+  animation: fall 21s linear 0.6s infinite forwards;
+}
+
+.snowflake-15 {
+  left: 98%;
+  animation: fall 17s linear 0.9s infinite forwards;
+}
+
+.snowflake-16 {
+  left: 95%;
+  animation: fall 25s linear 0.59s infinite forwards;
+}
+
+.snowflake-17 {
+  left: 98%;
+  animation: fall 24s linear 0.3s infinite forwards;
+}
+
+.snowflake-18 {
+  left: 96%;
+  animation: fall 22s linear 0.6s infinite forwards;
+}
+
+.snowflake-19 {
+  left: 97%;
+  animation: fall 19s linear 0.3s infinite forwards;
+}
+
+.snowflake-20 {
+  left: 99%;
+  animation: fall 17s linear 0.9s infinite forwards;
+}
+
+.snowflake-21 {
+  left: 97%;
+  animation: fall 22s linear 0.4s infinite forwards;
+}
+
+.snowflake-22 {
+  left: 99%;
+  animation: fall 21s linear 0.6s infinite forwards;
+}
+
+.snowflake-23 {
+  left: 96%;
+  animation: fall 20s linear 0.3s infinite forwards;
+}
+
+.snowflake-24 {
+  left: 92%;
+  animation: fall 25s linear 0.9s infinite forwards;
+}
+
+.snowflake-25 {
+  left: 96%;
+  animation: fall 20s linear 0.2s infinite forwards;
+}
+
+.snowflake-26 {
+  left: 65%;
+  animation: fall 25s linear 0.5s infinite forwards;
+}
+
+.snowflake-27 {
+  left: 80%;
+  animation: fall 24s linear 0.5s infinite forwards;
+}
+
+.snowflake-28 {
+  left: 12%;
+  animation: fall 23s linear 0.9s infinite forwards;
+}
+
+.snowflake-29 {
+  left: 63%;
+  animation: fall 19s linear 1.9s infinite forwards;
+}
+
+.snowflake-30 {
+  left: 33%;
+  animation: fall 18s linear 0.9s infinite forwards;
+}
+
+.snowflake-31 {
+  left: 48%;
+  animation: fall 25s linear 0.6s infinite forwards;
+}
+
+.snowflake-32 {
+  left: 39%;
+  animation: fall 24s linear 0.8s infinite forwards;
+}
+
+.snowflake-33 {
+  left: 47%;
+  animation: fall 25s linear 0.2s infinite forwards;
+}
+
+.snowflake-34 {
+  left: 83%;
+  animation: fall 25s linear 0.8s infinite forwards;
+}
+
+.snowflake-35 {
+  left: 44%;
+  animation: fall 24s linear 0.6s infinite forwards;
+}
+
+.snowflake-36 {
+  left: 25%;
+  animation: fall 18s linear 0.9s infinite forwards;
+}
+
+.snowflake-37 {
+  left: 42%;
+  animation: fall 17s linear 0.6s infinite forwards;
+}
+
+.snowflake-38 {
+  left: 67%;
+  animation: fall 18s linear 0.4s infinite forwards;
+}
+
+.snowflake-39 {
+  left: 36%;
+  animation: fall 24s linear 0.9s infinite forwards;
+}
+
+.snowflake-40 {
+  left: 6%;
+  animation: fall 20s linear 0.7s infinite forwards;
+}
+
+.snowflake-41 {
+  left: 7%;
+  animation: fall 20s linear 0.4s infinite forwards;
+}
+
+.snowflake-42 {
+  left: 75%;
+  animation: fall 17s linear 0.6s infinite forwards;
+}
+
+.snowflake-43 {
+  left: 18%;
+  animation: fall 24s linear 0.5s infinite forwards;
+}
+
+.snowflake-44 {
+  left: 69%;
+  animation: fall 24s linear 0.89s infinite forwards;
+}
+
+.snowflake-45 {
+  left: 36%;
+  animation: fall 25s linear 0.3s infinite forwards;
+}
+
+.snowflake-46 {
+  left: 46%;
+  animation: fall 24s linear 0.6s infinite forwards;
+}
+
+.snowflake-47 {
+  left: 62%;
+  animation: fall 19s linear 0.1s infinite forwards;
+}
+
+.snowflake-48 {
+  left: 30%;
+  animation: fall 17s linear 0.44s infinite forwards;
+}
+
+.snowflake-49 {
+  left: 93%;
+  animation: fall 16s linear 0.5s infinite forwards;
+}
+
+.snowflake-50 {
+  left: 20%;
+  animation: fall 21s linear 0.4s infinite forwards;
+}
+
+.snowflake-51 {
+  left: 80%;
+  animation: fall 21s linear 0.7s infinite forwards;
+}
+
+.snowflake-52 {
+  left: 88%;
+  animation: fall 20s linear 0.07s infinite forwards;
+}
+
+.snowflake-53 {
+  left: 49%;
+  animation: fall 22s linear 0.6s infinite forwards;
+}
+
+.snowflake-54 {
+  left: 94%;
+  animation: fall 16s linear 0.8s infinite forwards;
+}
+
+.snowflake-55 {
+  left: 12%;
+  animation: fall 24s linear 0.2s infinite forwards;
+}
+
+.snowflake-56 {
+  left: 49%;
+  animation: fall 20s linear 0.6s infinite forwards;
+}
+
+.snowflake-57 {
+  left: 81%;
+  animation: fall 23s linear 1.9s infinite forwards;
+}
+
+.snowflake-58 {
+  left: 88%;
+  animation: fall 16s linear 1.1s infinite forwards;
+}
+
+.snowflake-59 {
+  left: 37%;
+  animation: fall 24s linear 0.5s infinite forwards;
+}
+
+.snowflake-60 {
+  left: 59%;
+  animation: fall 17s linear 0.32s infinite forwards;
+}
+
+.snowflake-61 {
+  left: 27%;
+  animation: fall 24s linear 0.9s infinite forwards;
+}
+
+.snowflake-62 {
+  left: 27%;
+  animation: fall 20s linear 0.20s infinite forwards;
+}
+
+.snowflake-63 {
+  left: 57%;
+  animation: fall 23s linear 0.10s infinite forwards;
+}
+
+.snowflake-64 {
+  left: 46%;
+  animation: fall 18s linear 0.4s infinite forwards;
+}
+
+.snowflake-65 {
+  left: 61%;
+  animation: fall 19s linear 0.2s infinite forwards;
+}
+
+.snowflake-66 {
+  left: 95%;
+  animation: fall 20s linear 1.7s infinite forwards;
+}
+
+.snowflake-67 {
+  left: 72%;
+  animation: fall 20s linear 1.7s infinite forwards;
+}
+
+.snowflake-68 {
+  left: 17%;
+  animation: fall 23s linear 1.1s infinite forwards;
+}
+
+.snowflake-69 {
+  left: 52%;
+  animation: fall 19s linear 1.2s infinite forwards;
+}
+
+.snowflake-70 {
+  left: 41%;
+  animation: fall 25s linear 1.7s infinite forwards;
+}
+
+.snowflake-71 {
+  left: 13%;
+  animation: fall 18s linear 2.7s infinite forwards;
+}
+
+.snowflake-72 {
+  left: 92%;
+  animation: fall 16s linear 1.8s infinite forwards;
+}
+
+.snowflake-73 {
+  left: 92%;
+  animation: fall 21s linear 0.23s infinite forwards;
+}
+
+.snowflake-74 {
+  left: 36%;
+  animation: fall 25s linear 3.3s infinite forwards;
+}
+
+.snowflake-75 {
+  left: 84%;
+  animation: fall 21s linear 10.3s infinite forwards;
+}
+
+.snowflake-76 {
+  left: 54%;
+  animation: fall 17s linear 21s infinite forwards;
+}
+
+.snowflake-77 {
+  left: 35%;
+  animation: fall 21s linear 9.1s infinite forwards;
+}
+
+.snowflake-78 {
+  left: 93%;
+  animation: fall 17s linear 27.1s infinite forwards;
+}
+
+.snowflake-79 {
+  left: 86%;
+  animation: fall 23s linear 3.5s infinite forwards;
+}
+
+.snowflake-80 {
+  left: 10%;
+  animation: fall 23s linear 4.2s infinite forwards;
+}
+
+.snowflake-81 {
+  left: 47%;
+  animation: fall 16s linear 10.7s infinite forwards;
+}
+
+.snowflake-82 {
+  left: 24%;
+  animation: fall 23s linear 0.30s infinite forwards;
+}
+
+.snowflake-83 {
+  left: 60%;
+  animation: fall 20s linear 3.4s infinite forwards;
+}
+
+.snowflake-84 {
+  left: 80%;
+  animation: fall 16s linear 1.4s infinite forwards;
+}
+
+.snowflake-85 {
+  left: 36%;
+  animation: fall 16s linear 0.3s infinite forwards;
+}
+
+.snowflake-86 {
+  left: 15%;
+  animation: fall 25s linear 0.3s infinite forwards;
+}
+
+.snowflake-87 {
+  left: 64%;
+  animation: fall 25s linear 1.6s infinite forwards;
+}
+
+.snowflake-88 {
+  left: 51%;
+  animation: fall 24s linear 2.4s infinite forwards;
+}
+
+.snowflake-89 {
+  left: 60%;
+  animation: fall 25s linear 7.9s infinite forwards;
+}
+
+.snowflake-90 {
+  left: 20%;
+  animation: fall 16s linear 2.7s infinite forwards;
+}
+
+.snowflake-91 {
+  left: 12%;
+  animation: fall 23s linear 1.5s infinite forwards;
+}
+
+.snowflake-92 {
+  left: 20%;
+  animation: fall 20s linear 10.3s infinite forwards;
+}
+
+.snowflake-93 {
+  left: 44%;
+  animation: fall 19s linear 9.2s infinite forwards;
+}
+
+.snowflake-94 {
+  left: 34%;
+  animation: fall 21s linear 0.5s infinite forwards;
+}
+
+.snowflake-95 {
+  left: 69%;
+  animation: fall 24s linear 5.7s infinite forwards;
+}
+
+.snowflake-96 {
+  left: 48%;
+  animation: fall 17s linear 8.1s infinite forwards;
+}
+
+.snowflake-97 {
+  left: 16%;
+  animation: fall 18s linear 4.9s infinite forwards;
+}
+
+.snowflake-98 {
+  left: 90%;
+  animation: fall 25s linear 3.6s infinite forwards;
+}
+
+.snowflake-99 {
+  left: 61%;
+  animation: fall 19s linear 0.4s infinite forwards;
+}
+
+.snowflake-100 {
+  left: 84%;
+  animation: fall 23s linear 5.6s infinite forwards;
+}
+
+.snowflake-101 {
+  left: 58%;
+  animation: fall 24s linear 7.5s infinite forwards;
+}
+
+.snowflake-102 {
+  left: 37%;
+  animation: fall 24s linear 1.9s infinite forwards;
+}
+
+.snowflake-103 {
+  left: 42%;
+  animation: fall 24s linear 2.8s infinite forwards;
+}
+
+.snowflake-104 {
+  left: 54%;
+  animation: fall 23s linear 0.5s infinite forwards;
+}
+
+.snowflake-105 {
+  left: 30%;
+  animation: fall 20s linear 8.3s infinite forwards;
+}
+
+.snowflake-106 {
+  left: 79%;
+  animation: fall 22s linear 3.1s infinite forwards;
+}
+
+.snowflake-107 {
+  left: 8%;
+  animation: fall 24s linear 2.5s infinite forwards;
+}
+
+.snowflake-108 {
+  left: 44%;
+  animation: fall 25s linear 5.6s infinite forwards;
+}
+
+.snowflake-109 {
+  left: 65%;
+  animation: fall 24s linear 4.1s infinite forwards;
+}
+
+.snowflake-110 {
+  left: 71%;
+  animation: fall 20s linear 8.2s infinite forwards;
+}
+
+.snowflake-111 {
+  left: 70%;
+  animation: fall 22s linear 3.6s infinite forwards;
+}
+
+.snowflake-112 {
+  left: 76%;
+  animation: fall 25s linear 1.4s infinite forwards;
+}
+
+.snowflake-113 {
+  left: 30%;
+  animation: fall 20s linear 8.4s infinite forwards;
+}
+
+.snowflake-114 {
+  left: 46%;
+  animation: fall 23s linear 3.6s infinite forwards;
+}
+
+.snowflake-115 {
+  left: 75%;
+  animation: fall 21s linear 6.3s infinite forwards;
+}
+
+.snowflake-116 {
+  left: 11%;
+  animation: fall 20s linear 4s infinite forwards;
+}
+
+.snowflake-117 {
+  left: 37%;
+  animation: fall 18s linear 4.4s infinite forwards;
+}
+
+.snowflake-118 {
+  left: 36%;
+  animation: fall 24s linear 2.7s infinite forwards;
+}
+
+.snowflake-119 {
+  left: 86%;
+  animation: fall 18s linear 4.1s infinite forwards;
+}
+
+.snowflake-120 {
+  left: 27%;
+  animation: fall 19s linear 2.6s infinite forwards;
+}
+
+.snowflake-121 {
+  left: 22%;
+  animation: fall 25s linear 5.5s infinite forwards;
+}
+
+.snowflake-122 {
+  left: 50%;
+  animation: fall 16s linear 7s infinite forwards;
+}
+
+.snowflake-123 {
+  left: 50%;
+  animation: fall 24s linear 4.4s infinite forwards;
+}
+
+.snowflake-124 {
+  left: 46%;
+  animation: fall 17s linear 46.7s infinite forwards;
+}
+
+.snowflake-125 {
+  left: 65%;
+  animation: fall 24s linear 28.1s infinite forwards;
+}
+
+.snowflake-126 {
+  left: 20%;
+  animation: fall 25s linear 2.8s infinite forwards;
+}
+
+.snowflake-127 {
+  left: 74%;
+  animation: fall 22s linear 5.6s infinite forwards;
+}
+
+.snowflake-128 {
+  left: 66%;
+  animation: fall 24s linear 3.6s infinite forwards;
+}
+
+.snowflake-129 {
+  left: 11%;
+  animation: fall 18s linear 1.9s infinite forwards;
+}
+
+.snowflake-130 {
+  left: 60%;
+  animation: fall 16s linear 4.7s infinite forwards;
+}
+
+.snowflake-131 {
+  left: 93%;
+  animation: fall 24s linear 2.1s infinite forwards;
+}
+
+.snowflake-132 {
+  left: 41%;
+  animation: fall 22s linear 4.4s infinite forwards;
+}
+
+.snowflake-133 {
+  left: 26%;
+  animation: fall 20s linear 2.2s infinite forwards;
+}
+
+.snowflake-134 {
+  left: 22%;
+  animation: fall 23s linear 4.9s infinite forwards;
+}
+
+.snowflake-135 {
+  left: 92%;
+  animation: fall 24s linear 2.8s infinite forwards;
+}
+
+.snowflake-136 {
+  left: 31%;
+  animation: fall 25s linear 14s infinite forwards;
+}
+
+.snowflake-137 {
+  left: 58%;
+  animation: fall 19s linear 2.1s infinite forwards;
+}
+
+.snowflake-138 {
+  left: 94%;
+  animation: fall 20s linear 3.4s infinite forwards;
+}
+
+.snowflake-139 {
+  left: 37%;
+  animation: fall 16s linear 2.3s infinite forwards;
+}
+
+.snowflake-140 {
+  left: 71%;
+  animation: fall 21s linear 2.1s infinite forwards;
+}
+
+.snowflake-141 {
+  left: 94%;
+  animation: fall 21s linear 20.3s infinite forwards;
+}
+
+.snowflake-142 {
+  left: 6%;
+  animation: fall 23s linear 6.8s infinite forwards;
+}
+
+.snowflake-143 {
+  left: 67%;
+  animation: fall 20s linear 2.6s infinite forwards;
+}
+
+.snowflake-144 {
+  left: 59%;
+  animation: fall 16s linear 2.4s infinite forwards;
+}
+
+.snowflake-145 {
+  left: 48%;
+  animation: fall 16s linear 7.5s infinite forwards;
+}
+
+.snowflake-146 {
+  left: 14%;
+  animation: fall 20s linear 5s infinite forwards;
+}
+
+.snowflake-147 {
+  left: 95%;
+  animation: fall 24s linear 1.7s infinite forwards;
+}
+
+.snowflake-148 {
+  left: 10%;
+  animation: fall 18s linear 4.1s infinite forwards;
+}
+
+.snowflake-149 {
+  left: 75%;
+  animation: fall 23s linear 8.8s infinite forwards;
+}
+
+.snowflake-150 {
+  left: 38%;
+  animation: fall 16s linear 5.9s infinite forwards;
+}
+
+.snowflake-151 {
+  left: 10%;
+  animation: fall 25s linear 1.5s infinite forwards;
+}
+
+.snowflake-152 {
+  left: 41%;
+  animation: fall 23s linear 1.6s infinite forwards;
+}
+
+.snowflake-153 {
+  left: 94%;
+  animation: fall 22s linear 1.8s infinite forwards;
+}
+
+.snowflake-154 {
+  left: 34%;
+  animation: fall 20s linear 0.9s infinite forwards;
+}
+
+.snowflake-155 {
+  left: 44%;
+  animation: fall 22s linear 15.3s infinite forwards;
+}
+
+.snowflake-156 {
+  left: 83%;
+  animation: fall 22s linear 2.7s infinite forwards;
+}
+
+.snowflake-157 {
+  left: 20%;
+  animation: fall 20s linear 1.5s infinite forwards;
+}
+
+.snowflake-158 {
+  left: 24%;
+  animation: fall 19s linear 1.4s infinite forwards;
+}
+
+.snowflake-159 {
+  left: 87%;
+  animation: fall 16s linear 11.3s infinite forwards;
+}
+
+.snowflake-160 {
+  left: 45%;
+  animation: fall 18s linear 6.5s infinite forwards;
+}
+
+.snowflake-161 {
+  left: 88%;
+  animation: fall 21s linear 0.5s infinite forwards;
+}
+
+.snowflake-162 {
+  left: 52%;
+  animation: fall 20s linear 1.1s infinite forwards;
+}
+
+.snowflake-163 {
+  left: 94%;
+  animation: fall 19s linear 23s infinite forwards;
+}
+
+.snowflake-164 {
+  left: 20%;
+  animation: fall 16s linear 2.9s infinite forwards;
+}
+
+.snowflake-165 {
+  left: 20%;
+  animation: fall 18s linear 33.1s infinite forwards;
+}
+
+.snowflake-166 {
+  left: 54%;
+  animation: fall 16s linear 11.9s infinite forwards;
+}
+
+.snowflake-167 {
+  left: 7%;
+  animation: fall 25s linear 10.8s infinite forwards;
+}
+
+.snowflake-168 {
+  left: 60%;
+  animation: fall 25s linear 9.8s infinite forwards;
+}
+
+.snowflake-169 {
+  left: 45%;
+  animation: fall 25s linear 7.9s infinite forwards;
+}
+
+.snowflake-170 {
+  left: 75%;
+  animation: fall 22s linear 2.3s infinite forwards;
+}
+
+.snowflake-171 {
+  left: 63%;
+  animation: fall 25s linear 3.3s infinite forwards;
+}
+
+.snowflake-172 {
+  left: 30%;
+  animation: fall 23s linear 1.2s infinite forwards;
+}
+
+.snowflake-173 {
+  left: 69%;
+  animation: fall 24s linear 5.2s infinite forwards;
+}
+
+.snowflake-174 {
+  left: 17%;
+  animation: fall 16s linear 3.45s infinite forwards;
+}
+
+.snowflake-175 {
+  left: 91%;
+  animation: fall 24s linear 3.3s infinite forwards;
+}
+
+.snowflake-176 {
+  left: 74%;
+  animation: fall 18s linear 3.6s infinite forwards;
+}
+
+.snowflake-177 {
+  left: 33%;
+  animation: fall 17s linear 2.4s infinite forwards;
+}
+
+.snowflake-178 {
+  left: 63%;
+  animation: fall 21s linear 2.3s infinite forwards;
+}
+
+.snowflake-179 {
+  left: 55%;
+  animation: fall 20s linear 4.5s infinite forwards;
+}
+
+.snowflake-180 {
+  left: 86%;
+  animation: fall 17s linear 4.9s infinite forwards;
+}
+
+.snowflake-181 {
+  left: 87%;
+  animation: fall 19s linear 2s infinite forwards;
+}
+
+.snowflake-182 {
+  left: 45%;
+  animation: fall 18s linear 4.7s infinite forwards;
+}
+
+.snowflake-183 {
+  left: 43%;
+  animation: fall 19s linear 3.8s infinite forwards;
+}
+
+.snowflake-184 {
+  left: 56%;
+  animation: fall 19s linear 3.1s infinite forwards;
+}
+
+.snowflake-185 {
+  left: 85%;
+  animation: fall 16s linear 5.8s infinite forwards;
+}
+
+.snowflake-186 {
+  left: 41%;
+  animation: fall 20s linear 4.6s infinite forwards;
+}
+
+.snowflake-187 {
+  left: 58%;
+  animation: fall 25s linear 10.5s infinite forwards;
+}
+
+.snowflake-188 {
+  left: 75%;
+  animation: fall 19s linear 3.5s infinite forwards;
+}
+
+.snowflake-189 {
+  left: 25%;
+  animation: fall 24s linear 21.9s infinite forwards;
+}
+
+.snowflake-190 {
+  left: 24%;
+  animation: fall 17s linear 3.5s infinite forwards;
+}
+
+.snowflake-191 {
+  left: 40%;
+  animation: fall 20s linear 1.3s infinite forwards;
+}
+
+.snowflake-192 {
+  left: 90%;
+  animation: fall 23s linear 0.1s infinite forwards;
+}
+
+.snowflake-193 {
+  left: 88%;
+  animation: fall 18s linear 15.2s infinite forwards;
+}
+
+.snowflake-194 {
+  left: 16%;
+  animation: fall 16s linear 6.2s infinite forwards;
+}
+
+.snowflake-195 {
+  left: 7%;
+  animation: fall 25s linear 7.4s infinite forwards;
+}
+
+.snowflake-196 {
+  left: 26%;
+  animation: fall 24s linear 8.6s infinite forwards;
+}
+
+.snowflake-197 {
+  left: 9%;
+  animation: fall 19s linear 9.9s infinite forwards;
+}
+
+.snowflake-198 {
+  left: 62%;
+  animation: fall 17s linear 7.7s infinite forwards;
+}
+
+.snowflake-199 {
+  left: 58%;
+  animation: fall 25s linear 8.9s infinite forwards;
+}
+
+.snowflake-200 {
+  left: 93%;
+  animation: fall 17s linear 6.2s infinite forwards;
+}
+
+.snowflake-201 {
+  left: 7%;
+  animation: fall 22s linear 5.3s infinite forwards;
+}
+
+.snowflake-202 {
+  left: 3%;
+  animation: fall 16s linear 4.4s infinite forwards;
+}
+
+.snowflake-203 {
+  left: 6%;
+  animation: fall 24s linear 6.7s infinite forwards;
+}
+
+.snowflake-204 {
+  left: 5%;
+  animation: fall 19s linear 4.8s infinite forwards;
+}
+
+.snowflake-205 {
+  left: 6%;
+  animation: fall 25s linear 6.6s infinite forwards;
+}
+
+.snowflake-206 {
+  left: 8%;
+  animation: fall 20s linear 8.9s infinite forwards;
+}
+
+.snowflake-207 {
+  left: 1%;
+  animation: fall 16s linear 9.8s infinite forwards;
+}
+
+.snowflake-208 {
+  left: 5%;
+  animation: fall 18s linear 10.6s infinite forwards;
+}
+
+.snowflake-209 {
+  left: 2%;
+  animation: fall 18s linear 7.2s infinite forwards;
+}
+
+.snowflake-210 {
+  left: 4%;
+  animation: fall 25s linear 9.9s infinite forwards;
+}
+
+.snowflake-211 {
+  left: 0%;
+  animation: fall 19s linear 15.5s infinite forwards;
+}
+
+.snowflake-212 {
+  left: 1%;
+  animation: fall 23s linear 14.4s infinite forwards;
+}
+
+.snowflake-213 {
+  left: 4%;
+  animation: fall 18s linear 12.9s infinite forwards;
+}
+
+.snowflake-214 {
+  left: 3%;
+  animation: fall 17s linear 13.4s infinite forwards;
+}
+
+.snowflake-215 {
+  left: 4%;
+  animation: fall 23s linear 10.4s infinite forwards;
+}
+
+.snowflake-216 {
+  left: 9%;
+  animation: fall 21s linear 12.8s infinite forwards;
+}
+
+.snowflake-217 {
+  left: 7%;
+  animation: fall 18s linear 10.2s infinite forwards;
+}
+
+.snowflake-218 {
+  left: 3%;
+  animation: fall 18s linear 1.6s infinite forwards;
+}
+
+.snowflake-219 {
+  left: 5%;
+  animation: fall 18s linear 48.5s infinite forwards;
+}
+
+.snowflake-220 {
+  left: 2%;
+  animation: fall 21s linear 10.7s infinite forwards;
+}
+
+.snowflake-221 {
+  left: 8%;
+  animation: fall 22s linear 5.1s infinite forwards;
+}
+
+.snowflake-222 {
+  left: 1%;
+  animation: fall 23s linear 6.3s infinite forwards;
+}
+
+.snowflake-223 {
+  left: 2%;
+  animation: fall 16s linear 7.9s infinite forwards;
+}
+
+.snowflake-224 {
+  left: 6%;
+  animation: fall 20s linear 5.2s infinite forwards;
+}
+
+.snowflake-225 {
+  left: 8%;
+  animation: fall 18s linear 8.3s infinite forwards;
+}
+
+.snowflake-226 {
+  left: 5%;
+  animation: fall 21s linear 8.4s infinite forwards;
+}
+
+.snowflake-227 {
+  left: 9%;
+  animation: fall 22s linear 10.4s infinite forwards;
+}
+
+.snowflake-228 {
+  left: 2%;
+  animation: fall 22s linear 20.7s infinite forwards;
+}
+
+.snowflake-229 {
+  left: 8%;
+  animation: fall 18s linear 11.8s infinite forwards;
+}
+
+.snowflake-230 {
+  left: 9%;
+  animation: fall 23s linear 32.2s infinite forwards;
+}
+
+.snowflake-231 {
+  left: 7%;
+  animation: fall 25s linear 19.3s infinite forwards;
+}
+
+.snowflake-232 {
+  left: 3%;
+  animation: fall 21s linear 10.3s infinite forwards;
+}
+
+.snowflake-233 {
+  left: 7%;
+  animation: fall 22s linear 5.2s infinite forwards;
+}
+
+.snowflake-234 {
+  left: 2%;
+  animation: fall 24s linear 23.8s infinite forwards;
+}
+
+.snowflake-235 {
+  left: 3%;
+  animation: fall 18s linear 37.2s infinite forwards;
+}
+
+.snowflake-236 {
+  left: 4%;
+  animation: fall 24s linear 46.8s infinite forwards;
+}
+
+.snowflake-237 {
+  left: 6%;
+  animation: fall 18s linear 15.6s infinite forwards;
+}
+
+.snowflake-238 {
+  left: 4%;
+  animation: fall 24s linear 42.3s infinite forwards;
+}
+
+.snowflake-239 {
+  left: 8%;
+  animation: fall 19s linear 12.6s infinite forwards;
+}
+
+.snowflake-240 {
+  left: 8%;
+  animation: fall 25s linear 24.7s infinite forwards;
+}
+
+.snowflake-241 {
+  left: 2%;
+  animation: fall 20s linear 13.6s infinite forwards;
+}
+
+.snowflake-242 {
+  left: 1%;
+  animation: fall 20s linear 40.2s infinite forwards;
+}
+
+.snowflake-243 {
+  left: 2%;
+  animation: fall 19s linear 3.7s infinite forwards;
+}
+
+.snowflake-244 {
+  left: 1%;
+  animation: fall 17s linear 6.7s infinite forwards;
+}
+
+.snowflake-245 {
+  left: 9%;
+  animation: fall 21s linear 35s infinite forwards;
+}
+
+.snowflake-246 {
+  left: 1%;
+  animation: fall 25s linear 4.3s infinite forwards;
+}
+
+.snowflake-247 {
+  left: 5%;
+  animation: fall 20s linear 16.4s infinite forwards;
+}
+
+.snowflake-248 {
+  left: 3%;
+  animation: fall 20s linear 16.9s infinite forwards;
+}
+
+.snowflake-249 {
+  left: 8%;
+  animation: fall 23s linear 0.4s infinite forwards;
+}
+
+.snowflake-250 {
+  left: 2%;
+  animation: fall 16s linear 1.3s infinite forwards;
+}
+
+.snowflake-251 {
+  left: 78%;
+  animation: fall 17s linear 29s infinite forwards;
+}
+
+.snowflake-252 {
+  left: 69%;
+  animation: fall 21s linear 30.5s infinite forwards;
+}
+
+.snowflake-253 {
+  left: 79%;
+  animation: fall 18s linear 34.9s infinite forwards;
+}
+
+.snowflake-254 {
+  left: 82%;
+  animation: fall 20s linear 25.9s infinite forwards;
+}
+
+.snowflake-255 {
+  left: 64%;
+  animation: fall 23s linear 42.3s infinite forwards;
+}
+
+.snowflake-256 {
+  left: 68%;
+  animation: fall 19s linear 26.7s infinite forwards;
+}
+
+.snowflake-257 {
+  left: 53%;
+  animation: fall 23s linear 32.8s infinite forwards;
+}
+
+.snowflake-258 {
+  left: 63%;
+  animation: fall 23s linear 31.5s infinite forwards;
+}
+
+.snowflake-259 {
+  left: 89%;
+  animation: fall 22s linear 27.5s infinite forwards;
+}
+
+.snowflake-260 {
+  left: 22%;
+  animation: fall 23s linear 23.9s infinite forwards;
+}
+
+.snowflake-261 {
+  left: 47%;
+  animation: fall 18s linear 46.8s infinite forwards;
+}
+
+.snowflake-262 {
+  left: 28%;
+  animation: fall 20s linear 18.1s infinite forwards;
+}
+
+.snowflake-263 {
+  left: 80%;
+  animation: fall 18s linear 2.5s infinite forwards;
+}
+
+.snowflake-264 {
+  left: 7%;
+  animation: fall 16s linear 40.3s infinite forwards;
+}
+
+.snowflake-265 {
+  left: 45%;
+  animation: fall 20s linear 31.6s infinite forwards;
+}
+
+.snowflake-266 {
+  left: 63%;
+  animation: fall 24s linear 8.4s infinite forwards;
+}
+
+.snowflake-267 {
+  left: 72%;
+  animation: fall 18s linear 6.7s infinite forwards;
+}
+
+.snowflake-268 {
+  left: 74%;
+  animation: fall 19s linear 42.2s infinite forwards;
+}
+
+.snowflake-269 {
+  left: 15%;
+  animation: fall 22s linear 21.7s infinite forwards;
+}
+
+.snowflake-270 {
+  left: 69%;
+  animation: fall 17s linear 49.1s infinite forwards;
+}
+
+.snowflake-271 {
+  left: 17%;
+  animation: fall 22s linear 18.5s infinite forwards;
+}
+
+.snowflake-272 {
+  left: 20%;
+  animation: fall 17s linear 21.7s infinite forwards;
+}
+
+.snowflake-273 {
+  left: 54%;
+  animation: fall 16s linear 19.3s infinite forwards;
+}
+
+.snowflake-274 {
+  left: 73%;
+  animation: fall 25s linear 12.6s infinite forwards;
+}
+
+.snowflake-275 {
+  left: 26%;
+  animation: fall 21s linear 22.1s infinite forwards;
+}
+
+.snowflake-276 {
+  left: 10%;
+  animation: fall 16s linear 28.5s infinite forwards;
+}
+
+.snowflake-277 {
+  left: 78%;
+  animation: fall 16s linear 20.2s infinite forwards;
+}
+
+.snowflake-278 {
+  left: 7%;
+  animation: fall 20s linear 1.5s infinite forwards;
+}
+
+.snowflake-279 {
+  left: 37%;
+  animation: fall 25s linear 47.6s infinite forwards;
+}
+
+.snowflake-280 {
+  left: 64%;
+  animation: fall 17s linear 40s infinite forwards;
+}
+
+.snowflake-281 {
+  left: 35%;
+  animation: fall 20s linear 0.1s infinite forwards;
+}
+
+.snowflake-282 {
+  left: 20%;
+  animation: fall 16s linear 30.6s infinite forwards;
+}
+
+.snowflake-283 {
+  left: 91%;
+  animation: fall 22s linear 34.5s infinite forwards;
+}
+
+.snowflake-284 {
+  left: 91%;
+  animation: fall 22s linear 15.7s infinite forwards;
+}
+
+.snowflake-285 {
+  left: 92%;
+  animation: fall 18s linear 34.2s infinite forwards;
+}
+
+.snowflake-286 {
+  left: 93%;
+  animation: fall 25s linear 36.7s infinite forwards;
+}
+
+.snowflake-287 {
+  left: 94%;
+  animation: fall 22s linear 2.6s infinite forwards;
+}
+
+.snowflake-288 {
+  left: 95%;
+  animation: fall 22s linear 10.3s infinite forwards;
+}
+
+.snowflake-289 {
+  left: 96%;
+  animation: fall 20s linear 15s infinite forwards;
+}
+
+.snowflake-290 {
+  left: 98%;
+  animation: fall 20s linear 7.1s infinite forwards;
+}
+
+.snowflake-291 {
+  left: 97%;
+  animation: fall 20s linear 48.4s infinite forwards;
+}
+
+.snowflake-292 {
+  left: 99%;
+  animation: fall 25s linear 28.2s infinite forwards;
+}
+
+.snowflake-293 {
+  left: 100%;
+  animation: fall 20s linear 33.1s infinite forwards;
+}
+
+.snowflake-294 {
+  left: 79%;
+  animation: fall 18s linear 19.7s infinite forwards;
+}
+
+.snowflake-295 {
+  left: 69%;
+  animation: fall 20s linear 40.1s infinite forwards;
+}
+
+.snowflake-296 {
+  left: 46%;
+  animation: fall 24s linear 42.2s infinite forwards;
+}
+
+.snowflake-297 {
+  left: 42%;
+  animation: fall 25s linear 4.7s infinite forwards;
+}
+
+.snowflake-298 {
+  left: 24%;
+  animation: fall 21s linear 31.9s infinite forwards;
+}
+
+.snowflake-299 {
+  left: 79%;
+  animation: fall 20s linear 43.2s infinite forwards;
+}
+
+.snowflake-300 {
+  left: 57%;
+  animation: fall 18s linear 29.9s infinite forwards;
+}
+
+.snowflake-301 {
+  left: 26%;
+  animation: fall 16s linear 23.5s infinite forwards;
+}
+
+.snowflake-302 {
+  left: 90%;
+  animation: fall 25s linear 45s infinite forwards;
+}
+
+.snowflake-303 {
+  left: 37%;
+  animation: fall 17s linear 21.8s infinite forwards;
+}
+
+.snowflake-304 {
+  left: 39%;
+  animation: fall 18s linear 27.1s infinite forwards;
+}
+
+.snowflake-305 {
+  left: 84%;
+  animation: fall 16s linear 2.6s infinite forwards;
+}
+
+.snowflake-306 {
+  left: 53%;
+  animation: fall 16s linear 23.8s infinite forwards;
+}
+
+.snowflake-307 {
+  left: 12%;
+  animation: fall 24s linear 23.5s infinite forwards;
+}
+
+.snowflake-308 {
+  left: 13%;
+  animation: fall 20s linear 37.6s infinite forwards;
+}
+
+.snowflake-309 {
+  left: 13%;
+  animation: fall 25s linear 20s infinite forwards;
+}
+
+.snowflake-310 {
+  left: 15%;
+  animation: fall 18s linear 0.5s infinite forwards;
+}
+
+.snowflake-311 {
+  left: 7%;
+  animation: fall 18s linear 29.4s infinite forwards;
+}
+
+.snowflake-312 {
+  left: 58%;
+  animation: fall 17s linear 34.2s infinite forwards;
+}
+
+.snowflake-313 {
+  left: 15%;
+  animation: fall 24s linear 30.7s infinite forwards;
+}
+
+.snowflake-314 {
+  left: 74%;
+  animation: fall 18s linear 20.5s infinite forwards;
+}
+
+.snowflake-315 {
+  left: 6%;
+  animation: fall 23s linear 13.5s infinite forwards;
+}
+
+.snowflake-316 {
+  left: 92%;
+  animation: fall 20s linear 2.4s infinite forwards;
+}
+
+.snowflake-317 {
+  left: 46%;
+  animation: fall 16s linear 6.1s infinite forwards;
+}
+
+.snowflake-318 {
+  left: 10%;
+  animation: fall 19s linear 34.6s infinite forwards;
+}
+
+.snowflake-319 {
+  left: 75%;
+  animation: fall 16s linear 18.5s infinite forwards;
+}
+
+.snowflake-320 {
+  left: 30%;
+  animation: fall 24s linear 44.7s infinite forwards;
+}
+
+.snowflake-321 {
+  left: 16%;
+  animation: fall 20s linear 1.9s infinite forwards;
+}
+
+.snowflake-322 {
+  left: 20%;
+  animation: fall 22s linear 34.5s infinite forwards;
+}
+
+.snowflake-323 {
+  left: 8%;
+  animation: fall 25s linear 20.1s infinite forwards;
+}
+
+.snowflake-324 {
+  left: 90%;
+  animation: fall 18s linear 9.5s infinite forwards;
+}
+
+.snowflake-325 {
+  left: 10%;
+  animation: fall 20s linear 44.5s infinite forwards;
+}
+
+.snowflake-326 {
+  left: 22%;
+  animation: fall 24s linear 0.3s infinite forwards;
+}
+
+.snowflake-327 {
+  left: 31%;
+  animation: fall 19s linear 21.4s infinite forwards;
+}
+
+.snowflake-328 {
+  left: 45%;
+  animation: fall 16s linear 1.7s infinite forwards;
+}
+
+.snowflake-329 {
+  left: 12%;
+  animation: fall 25s linear 6.2s infinite forwards;
+}
+
+.snowflake-330 {
+  left: 53%;
+  animation: fall 17s linear 2.6s infinite forwards;
+}
+
+.snowflake-331 {
+  left: 51%;
+  animation: fall 20s linear 24.6s infinite forwards;
+}
+
+.snowflake-332 {
+  left: 18%;
+  animation: fall 16s linear 19.4s infinite forwards;
+}
+
+.snowflake-333 {
+  left: 55%;
+  animation: fall 21s linear 30.7s infinite forwards;
+}
+
+.snowflake-334 {
+  left: 51%;
+  animation: fall 19s linear 34.6s infinite forwards;
+}
+
+.snowflake-335 {
+  left: 54%;
+  animation: fall 21s linear 29s infinite forwards;
+}
+
+.snowflake-336 {
+  left: 87%;
+  animation: fall 16s linear 19.7s infinite forwards;
+}
+
+.snowflake-337 {
+  left: 57%;
+  animation: fall 16s linear 48s infinite forwards;
+}
+
+.snowflake-338 {
+  left: 84%;
+  animation: fall 19s linear 35.8s infinite forwards;
+}
+
+.snowflake-339 {
+  left: 77%;
+  animation: fall 23s linear 17.4s infinite forwards;
+}
+
+.snowflake-340 {
+  left: 55%;
+  animation: fall 21s linear 2.9s infinite forwards;
+}
+
+.snowflake-341 {
+  left: 54%;
+  animation: fall 24s linear 7.9s infinite forwards;
+}
+
+.snowflake-342 {
+  left: 33%;
+  animation: fall 22s linear 8.6s infinite forwards;
+}
+
+.snowflake-343 {
+  left: 58%;
+  animation: fall 24s linear 38.8s infinite forwards;
+}
+
+.snowflake-344 {
+  left: 67%;
+  animation: fall 21s linear 13.7s infinite forwards;
+}
+
+.snowflake-345 {
+  left: 53%;
+  animation: fall 19s linear 10.1s infinite forwards;
+}
+
+.snowflake-346 {
+  left: 45%;
+  animation: fall 19s linear 9.9s infinite forwards;
+}
+
+.snowflake-347 {
+  left: 92%;
+  animation: fall 22s linear 45.7s infinite forwards;
+}
+
+.snowflake-348 {
+  left: 82%;
+  animation: fall 24s linear 8.3s infinite forwards;
+}
+
+.snowflake-349 {
+  left: 30%;
+  animation: fall 17s linear 45s infinite forwards;
+}
+
+.snowflake-350 {
+  left: 81%;
+  animation: fall 24s linear 33.7s infinite forwards;
+}
+
+.snowflake-351 {
+  left: 21%;
+  animation: fall 22s linear 11.5s infinite forwards;
+}
+
+.snowflake-352 {
+  left: 50%;
+  animation: fall 18s linear 19.8s infinite forwards;
+}
+
+.snowflake-353 {
+  left: 40%;
+  animation: fall 17s linear 10.3s infinite forwards;
+}
+
+.snowflake-354 {
+  left: 91%;
+  animation: fall 24s linear 2.5s infinite forwards;
+}
+
+.snowflake-355 {
+  left: 65%;
+  animation: fall 25s linear 29s infinite forwards;
+}
+
+.snowflake-356 {
+  left: 75%;
+  animation: fall 17s linear 13.7s infinite forwards;
+}
+
+.snowflake-357 {
+  left: 28%;
+  animation: fall 20s linear 27.4s infinite forwards;
+}
+
+.snowflake-358 {
+  left: 59%;
+  animation: fall 22s linear 38.5s infinite forwards;
+}
+
+.snowflake-359 {
+  left: 95%;
+  animation: fall 18s linear 14.1s infinite forwards;
+}
+
+.snowflake-360 {
+  left: 26%;
+  animation: fall 22s linear 4.4s infinite forwards;
+}
+
+.snowflake-361 {
+  left: 85%;
+  animation: fall 16s linear 21.3s infinite forwards;
+}
+
+.snowflake-362 {
+  left: 85%;
+  animation: fall 16s linear 12.7s infinite forwards;
+}
+
+.snowflake-363 {
+  left: 91%;
+  animation: fall 17s linear 5.1s infinite forwards;
+}
+
+.snowflake-364 {
+  left: 26%;
+  animation: fall 18s linear 35s infinite forwards;
+}
+
+.snowflake-365 {
+  left: 9%;
+  animation: fall 20s linear 40s infinite forwards;
+}
+
+.snowflake-366 {
+  left: 92%;
+  animation: fall 22s linear 17.7s infinite forwards;
+}
+
+.snowflake-367 {
+  left: 51%;
+  animation: fall 19s linear 4s infinite forwards;
+}
+
+.snowflake-368 {
+  left: 53%;
+  animation: fall 19s linear 46.9s infinite forwards;
+}
+
+.snowflake-369 {
+  left: 85%;
+  animation: fall 24s linear 42s infinite forwards;
+}
+
+.snowflake-370 {
+  left: 6%;
+  animation: fall 16s linear 8.9s infinite forwards;
+}
+
+.snowflake-371 {
+  left: 12%;
+  animation: fall 23s linear 17.2s infinite forwards;
+}
+
+.snowflake-372 {
+  left: 63%;
+  animation: fall 22s linear 48.8s infinite forwards;
+}
+
+.snowflake-373 {
+  left: 84%;
+  animation: fall 22s linear 8.8s infinite forwards;
+}
+
+.snowflake-374 {
+  left: 63%;
+  animation: fall 22s linear 11.5s infinite forwards;
+}
+
+.snowflake-375 {
+  left: 9%;
+  animation: fall 16s linear 39.7s infinite forwards;
+}
+
+.snowflake-376 {
+  left: 19%;
+  animation: fall 16s linear 4.1s infinite forwards;
+}
+
+.snowflake-377 {
+  left: 78%;
+  animation: fall 17s linear 22.5s infinite forwards;
+}
+
+.snowflake-378 {
+  left: 58%;
+  animation: fall 20s linear 28.2s infinite forwards;
+}
+
+.snowflake-379 {
+  left: 21%;
+  animation: fall 25s linear 24.3s infinite forwards;
+}
+
+.snowflake-380 {
+  left: 61%;
+  animation: fall 23s linear 30s infinite forwards;
+}
+
+.snowflake-381 {
+  left: 70%;
+  animation: fall 23s linear 28.8s infinite forwards;
+}
+
+.snowflake-382 {
+  left: 87%;
+  animation: fall 25s linear 9.2s infinite forwards;
+}
+
+.snowflake-383 {
+  left: 88%;
+  animation: fall 20s linear 33.7s infinite forwards;
+}
+
+.snowflake-384 {
+  left: 36%;
+  animation: fall 25s linear 44.3s infinite forwards;
+}
+
+.snowflake-385 {
+  left: 84%;
+  animation: fall 22s linear 14.9s infinite forwards;
+}
+
+.snowflake-386 {
+  left: 57%;
+  animation: fall 19s linear 22.6s infinite forwards;
+}
+
+.snowflake-387 {
+  left: 23%;
+  animation: fall 25s linear 37.4s infinite forwards;
+}
+
+.snowflake-388 {
+  left: 71%;
+  animation: fall 19s linear 0.3s infinite forwards;
+}
+
+.snowflake-389 {
+  left: 75%;
+  animation: fall 25s linear 37.2s infinite forwards;
+}
+
+.snowflake-390 {
+  left: 13%;
+  animation: fall 18s linear 11.4s infinite forwards;
+}
+
+.snowflake-391 {
+  left: 80%;
+  animation: fall 19s linear 33.4s infinite forwards;
+}
+
+.snowflake-392 {
+  left: 81%;
+  animation: fall 17s linear 42.2s infinite forwards;
+}
+
+.snowflake-393 {
+  left: 32%;
+  animation: fall 19s linear 6.9s infinite forwards;
+}
+
+.snowflake-394 {
+  left: 59%;
+  animation: fall 20s linear 23.5s infinite forwards;
+}
+
+.snowflake-395 {
+  left: 33%;
+  animation: fall 21s linear 11.4s infinite forwards;
+}
+
+.snowflake-396 {
+  left: 34%;
+  animation: fall 23s linear 29.8s infinite forwards;
+}
+
+.snowflake-397 {
+  left: 56%;
+  animation: fall 25s linear 7.6s infinite forwards;
+}
+
+.snowflake-398 {
+  left: 10%;
+  animation: fall 25s linear 2.4s infinite forwards;
+}
+
+.snowflake-399 {
+  left: 34%;
+  animation: fall 18s linear 33.3s infinite forwards;
+}
+
+.snowflake-400 {
+  left: 94%;
+  animation: fall 25s linear 27.4s infinite forwards;
+}
+
+.snowflake-401 {
+  left: 44%;
+  animation: fall 25s linear 12.7s infinite forwards;
+}
+
+.snowflake-402 {
+  left: 17%;
+  animation: fall 17s linear 21.4s infinite forwards;
+}
+
+.snowflake-403 {
+  left: 43%;
+  animation: fall 25s linear 13.9s infinite forwards;
+}
+
+.snowflake-404 {
+  left: 31%;
+  animation: fall 21s linear 48.2s infinite forwards;
+}
+
+.snowflake-405 {
+  left: 8%;
+  animation: fall 22s linear 9.6s infinite forwards;
+}
+
+.snowflake-406 {
+  left: 69%;
+  animation: fall 24s linear 16.1s infinite forwards;
+}
+
+.snowflake-407 {
+  left: 82%;
+  animation: fall 19s linear 45.2s infinite forwards;
+}
+
+.snowflake-408 {
+  left: 72%;
+  animation: fall 22s linear 49.2s infinite forwards;
+}
+
+.snowflake-409 {
+  left: 55%;
+  animation: fall 24s linear 2.8s infinite forwards;
+}
+
+.snowflake-410 {
+  left: 64%;
+  animation: fall 18s linear 2.3s infinite forwards;
+}
+
+.snowflake-411 {
+  left: 57%;
+  animation: fall 19s linear 20s infinite forwards;
+}
+
+.snowflake-412 {
+  left: 54%;
+  animation: fall 21s linear 12.8s infinite forwards;
+}
+
+.snowflake-413 {
+  left: 71%;
+  animation: fall 18s linear 49.4s infinite forwards;
+}
+
+.snowflake-414 {
+  left: 23%;
+  animation: fall 21s linear 21.2s infinite forwards;
+}
+
+.snowflake-415 {
+  left: 53%;
+  animation: fall 23s linear 35.8s infinite forwards;
+}
+
+.snowflake-416 {
+  left: 29%;
+  animation: fall 25s linear 16.4s infinite forwards;
+}
+
+.snowflake-417 {
+  left: 77%;
+  animation: fall 20s linear 11.3s infinite forwards;
+}
+
+.snowflake-418 {
+  left: 54%;
+  animation: fall 19s linear 33.4s infinite forwards;
+}
+
+.snowflake-419 {
+  left: 26%;
+  animation: fall 18s linear 14.9s infinite forwards;
+}
+
+.snowflake-420 {
+  left: 20%;
+  animation: fall 25s linear 4.4s infinite forwards;
+}
+
+.snowflake-421 {
+  left: 51%;
+  animation: fall 16s linear 24.7s infinite forwards;
+}
+
+.snowflake-422 {
+  left: 94%;
+  animation: fall 23s linear 34.5s infinite forwards;
+}
+
+.snowflake-423 {
+  left: 39%;
+  animation: fall 25s linear 27.6s infinite forwards;
+}
+
+.snowflake-424 {
+  left: 76%;
+  animation: fall 19s linear 11.5s infinite forwards;
+}
+
+.snowflake-425 {
+  left: 44%;
+  animation: fall 25s linear 46.3s infinite forwards;
+}
+
+.snowflake-426 {
+  left: 9%;
+  animation: fall 16s linear 41.7s infinite forwards;
+}
+
+.snowflake-427 {
+  left: 24%;
+  animation: fall 23s linear 30.1s infinite forwards;
+}
+
+.snowflake-428 {
+  left: 43%;
+  animation: fall 23s linear 35.5s infinite forwards;
+}
+
+.snowflake-429 {
+  left: 64%;
+  animation: fall 20s linear 14.6s infinite forwards;
+}
+
+.snowflake-430 {
+  left: 16%;
+  animation: fall 25s linear 36.1s infinite forwards;
+}
+
+.snowflake-431 {
+  left: 70%;
+  animation: fall 22s linear 31.2s infinite forwards;
+}
+
+.snowflake-432 {
+  left: 24%;
+  animation: fall 22s linear 14.8s infinite forwards;
+}
+
+.snowflake-433 {
+  left: 33%;
+  animation: fall 16s linear 15.8s infinite forwards;
+}
+
+.snowflake-434 {
+  left: 19%;
+  animation: fall 21s linear 16.1s infinite forwards;
+}
+
+.snowflake-435 {
+  left: 29%;
+  animation: fall 16s linear 0.21s infinite forwards;
+}
+
+.snowflake-436 {
+  left: 64%;
+  animation: fall 21s linear 0.19s infinite forwards;
+}
+
+.snowflake-437 {
+  left: 21%;
+  animation: fall 21s linear 0.19s infinite forwards;
+}
+
+.snowflake-438 {
+  left: 67%;
+  animation: fall 22s linear 0.16s infinite forwards;
+}
+
+.snowflake-439 {
+  left: 15%;
+  animation: fall 22s linear 0.12s infinite forwards;
+}
+
+.snowflake-440 {
+  left: 68%;
+  animation: fall 23s linear 0.22s infinite forwards;
+}
+
+.snowflake-441 {
+  left: 21%;
+  animation: fall 17s linear 0.2s infinite forwards;
+}
+
+.snowflake-442 {
+  left: 19%;
+  animation: fall 16s linear 0.4s infinite forwards;
+}
+
+.snowflake-443 {
+  left: 64%;
+  animation: fall 20s linear 0.2s infinite forwards;
+}
+
+.snowflake-444 {
+  left: 70%;
+  animation: fall 18s linear 0.1s infinite forwards;
+}
+
+.snowflake-445 {
+  left: 15%;
+  animation: fall 18s linear 9.1s infinite forwards;
+}
+
+.snowflake-446 {
+  left: 60%;
+  animation: fall 20s linear 0.6s infinite forwards;
+}
+
+.snowflake-447 {
+  left: 84%;
+  animation: fall 19s linear 0.7s infinite forwards;
+}
+
+.snowflake-448 {
+  left: 35%;
+  animation: fall 21s linear 0.7s infinite forwards;
+}
+
+.snowflake-449 {
+  left: 85%;
+  animation: fall 16s linear 0.9s infinite forwards;
+}
+
+.snowflake-450 {
+  left: 43%;
+  animation: fall 16s linear 0.5s infinite forwards;
+}
+
+.snowflake-451 {
+  left: 79%;
+  animation: fall 24s linear 0.1s infinite forwards;
+}
+
+.snowflake-452 {
+  left: 52%;
+  animation: fall 20s linear 0.4s infinite forwards;
+}
+
+.snowflake-453 {
+  left: 11%;
+  animation: fall 24s linear 0.7s infinite forwards;
+}
+
+.snowflake-454 {
+  left: 95%;
+  animation: fall 20s linear 0.2s infinite forwards;
+}
+
+.snowflake-455 {
+  left: 57%;
+  animation: fall 20s linear 0.4s infinite forwards;
+}
+
+.snowflake-456 {
+  left: 94%;
+  animation: fall 23s linear 0.4s infinite forwards;
+}
+
+.snowflake-457 {
+  left: 50%;
+  animation: fall 25s linear 0.1s infinite forwards;
+}
+
+.snowflake-458 {
+  left: 90%;
+  animation: fall 18s linear 0.6s infinite forwards;
+}
+
+.snowflake-459 {
+  left: 43%;
+  animation: fall 20s linear 0.7s infinite forwards;
+}
+
+.snowflake-460 {
+  left: 41%;
+  animation: fall 24s linear 0.6s infinite forwards;
+}
+
+.snowflake-461 {
+  left: 20%;
+  animation: fall 22s linear 0.3s infinite forwards;
+}
+
+.snowflake-462 {
+  left: 31%;
+  animation: fall 16s linear 6.8s infinite forwards;
+}
+
+.snowflake-463 {
+  left: 75%;
+  animation: fall 20s linear 0.1s infinite forwards;
+}
+
+.snowflake-464 {
+  left: 40%;
+  animation: fall 22s linear 8.1s infinite forwards;
+}
+
+.snowflake-465 {
+  left: 65%;
+  animation: fall 19s linear 0.4s infinite forwards;
+}
+
+.snowflake-466 {
+  left: 9%;
+  animation: fall 24s linear 0.1s infinite forwards;
+}
+
+.snowflake-467 {
+  left: 58%;
+  animation: fall 23s linear 0.2s infinite forwards;
+}
+
+.snowflake-468 {
+  left: 21%;
+  animation: fall 24s linear 0.6s infinite forwards;
+}
+
+.snowflake-469 {
+  left: 90%;
+  animation: fall 19s linear 0.4s infinite forwards;
+}
+
+.snowflake-470 {
+  left: 37%;
+  animation: fall 19s linear 0.2s infinite forwards;
+}
+
+.snowflake-471 {
+  left: 86%;
+  animation: fall 21s linear 0.6s infinite forwards;
+}
+
+.snowflake-472 {
+  left: 66%;
+  animation: fall 20s linear 0.4s infinite forwards;
+}
+
+.snowflake-473 {
+  left: 65%;
+  animation: fall 22s linear 0.7s infinite forwards;
+}
+
+.snowflake-474 {
+  left: 56%;
+  animation: fall 17s linear 11.7s infinite forwards;
+}
+
+.snowflake-475 {
+  left: 39%;
+  animation: fall 25s linear 21.9s infinite forwards;
+}
+
+.snowflake-476 {
+  left: 11%;
+  animation: fall 24s linear 7.6s infinite forwards;
+}
+
+.snowflake-477 {
+  left: 68%;
+  animation: fall 24s linear 46.9s infinite forwards;
+}
+
+.snowflake-478 {
+  left: 54%;
+  animation: fall 21s linear 47.9s infinite forwards;
+}
+
+.snowflake-479 {
+  left: 85%;
+  animation: fall 18s linear 43.9s infinite forwards;
+}
+
+.snowflake-480 {
+  left: 81%;
+  animation: fall 18s linear 49.8s infinite forwards;
+}
+
+.snowflake-481 {
+  left: 15%;
+  animation: fall 24s linear 19.2s infinite forwards;
+}
+
+.snowflake-482 {
+  left: 67%;
+  animation: fall 16s linear 20.6s infinite forwards;
+}
+
+.snowflake-483 {
+  left: 48%;
+  animation: fall 25s linear 9.7s infinite forwards;
+}
+
+.snowflake-484 {
+  left: 8%;
+  animation: fall 16s linear 15.9s infinite forwards;
+}
+
+.snowflake-485 {
+  left: 71%;
+  animation: fall 17s linear 43.3s infinite forwards;
+}
+
+.snowflake-486 {
+  left: 13%;
+  animation: fall 16s linear 35.6s infinite forwards;
+}
+
+.snowflake-487 {
+  left: 22%;
+  animation: fall 20s linear 3.1s infinite forwards;
+}
+
+.snowflake-488 {
+  left: 93%;
+  animation: fall 22s linear 13.2s infinite forwards;
+}
+
+.snowflake-489 {
+  left: 54%;
+  animation: fall 23s linear 12.3s infinite forwards;
+}
+
+.snowflake-490 {
+  left: 84%;
+  animation: fall 25s linear 5.4s infinite forwards;
+}
+
+.snowflake-491 {
+  left: 16%;
+  animation: fall 22s linear 18.1s infinite forwards;
+}
+
+.snowflake-492 {
+  left: 30%;
+  animation: fall 21s linear 5s infinite forwards;
+}
+
+.snowflake-493 {
+  left: 7%;
+  animation: fall 22s linear 49.4s infinite forwards;
+}
+
+.snowflake-494 {
+  left: 8%;
+  animation: fall 25s linear 30.8s infinite forwards;
+}
+
+.snowflake-495 {
+  left: 51%;
+  animation: fall 20s linear 1.9s infinite forwards;
+}
+
+.snowflake-496 {
+  left: 42%;
+  animation: fall 17s linear 47.2s infinite forwards;
+}
+
+.snowflake-497 {
+  left: 45%;
+  animation: fall 24s linear 24.1s infinite forwards;
+}
+
+.snowflake-498 {
+  left: 74%;
+  animation: fall 21s linear 44.4s infinite forwards;
+}
+
+.snowflake-499 {
+  left: 50%;
+  animation: fall 21s linear 30s infinite forwards;
+}
+
+.snowflake-500 {
+  left: 82%;
+  animation: fall 19s linear 0.7s infinite forwards;
+}
+
+/*video-popup*/
+.box {
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.button:hover {
+  background: #75B6C5;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay.open {
+  visibility: visible;
+  opacity: 1;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  background: transparent;
+  position: relative;
+  transition: all ease-in-out;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+}
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  transition: all 200ms;
+  left: 5px;
+  z-index: 10;
+}
+
+.popup .close svg:hover path {
+  fill: #75B6C5;
+  color: #75B6C5;
+  stroke: #75B6C5 !important;
+
+}
+
+.popup .content {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+.popup .content iframe {
+  height: 95%;
+  width: 100%;
+  max-width: 95%;
+  margin: auto;
+  position: absolute;
+  right: 50%;
+  transform: translateX(50%);
+  top: 50%;
+  bottom: 50%;
+
+}
+
+.overlay-open{
+  animation-delay: 0.2s;
+}
+.overlay iframe.fade-in {
+  animation-delay: 0.3s;
+}
+
+.content .close.fade-in {
+  animation-delay: 0.4s;
+}
+@keyframes crossFade {
+  20% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 0;
+  }
+}
+.crossFade__image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  animation-name: crossFade;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 12s;
+}
